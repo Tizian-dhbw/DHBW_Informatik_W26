@@ -31,11 +31,11 @@ sum = num1 + num2
 
 # Display the sum (2 versions)
 # First with no formatting of input and output numbers
-print("Die Summe von", num1, "und" , num2, "ist:", sum)
+print("1. Die Summe von", num1, "und" , num2, "ist:", sum)
 
 # The next versions uses the newest f-string formatting, see https://pyformat.info/ for details
 # IMPORTANT: works only in Python 3.6 or newer!
-print(f"Die Summe von {num1} und {num2} ist: {sum}")
+print(f"2. Die Summe von {num1} und {num2} ist: {sum}")
 
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
 print('The sum of {} and {} is {}'.format(num1, num2, sum))
