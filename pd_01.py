@@ -1,4 +1,5 @@
 # Bitte noch folgende Module installieren
+# pip install pandas
 # pip install matplotlib
 # pip install openpyxl
 import pandas as pd
